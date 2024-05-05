@@ -4,8 +4,8 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white font-poppins">
-      <div className="max-w-7xl mx-auto px-4  py-6 lg:flex justify-between items-center">
+    <nav className="bg-white font-inter">
+      <div className="max-w-7xl mx-auto px-4  py-3 lg:flex justify-between items-center">
         {/* Logo */}
         <div className="flex justify-between items-center">
           <div className="uppercase">
@@ -40,7 +40,7 @@ function Navbar() {
             isMenuOpen ? "block" : "hidden"
           } lg:flex lg:items-center lg:w-auto`}
         >
-          <ul className="list-reset lg:flex justify-end font-medium flex-1 uppercase items-center ">
+          <ul className="list-reset lg:flex justify-end font-medium flex-1 uppercase items-center font-lato ">
           <li className="mr-3 md:pt-0 pt-8">
               <a
                 href="#"

@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     extend: {fontFamily: {
-      poppins: ['Poppins']
+      lato: ['lato'],
+      inter: ['inter']
     }},
   },
   plugins: [],
