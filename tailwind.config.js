@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {fontFamily: {
       lato: ['lato'],
-      inter: ['inter']
+      inter: ['inter'],
+      poppins: ['poppins']
     }},
   },
   plugins: [],
