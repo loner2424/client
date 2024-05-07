@@ -18,7 +18,6 @@ function App() {
       <Overview />
       <Services />
       <Clients />
-      <Presence />
       <Awards />
       <GetInTouch />
       <Footer />
