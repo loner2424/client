@@ -19,19 +19,19 @@ const Overview = () => {
           more productive and thriving workplace.
         </div>
         <div className="flex mt-8 ">
-          <div className="md:w-1/4 px-2">
-            <div className="text-3xl font-bold"> 7+</div> <div> States </div>
+          <div className="md:w-1/4 mx-1  md:px-2">
+            <div className="md:text-3xl font-bold"> 7+</div> <div className="text-sm md:text-xl"> States </div>
           </div>
-          <div className="md:w-1/4  px-2">
-            <div className="text-3xl font-bold"> 60+</div>{" "}
-            <div> Locations </div>
+          <div className="md:w-1/4 mx-1 md:px-2">
+            <div className="md:text-3xl font-bold"> 60+</div>{" "}
+            <div className="text-sm md:text-xl"> Locations </div>
           </div>
-          <div className="md:w-1/4  px-2">
-            <div className="text-3xl font-bold"> 25+</div> <div> Clients </div>
+          <div className="md:w-1/4 mx-1 md:px-2">
+            <div className="md:text-3xl font-bold"> 25+</div> <div className="text-sm md:text-xl"> Clients </div>
           </div>
-          <div className="md:w-1/4 px-2">
-            <div className="text-3xl font-bold"> 1500+ </div>
-            <div> Professionals </div>
+          <div className="md:w-1/4 mx-1 md:px-2">
+            <div className="md:text-3xl font-bold"> 1500+ </div>
+            <div className="text-sm md:text-xl"> Professionals </div>
           </div>
         </div>
       </div>

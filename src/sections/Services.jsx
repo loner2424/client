@@ -13,7 +13,7 @@ import Township from '../assets/Township.png'
 const Services = () => {
   return (
     <div>
-      <div className="absolute w-full hidden md:block md:px-24 md:py-16">
+      <div className="absolute w-full hidden md:block  md:px-24 md:py-16">
         <div className="flex justify-between w-full">
           <div className=" flex md:text-4xl text-md justify-center items-center w-full md:justify-start font-bold font-poppins text-[#8BDAFF]">
             Our Services
@@ -64,7 +64,7 @@ const Services = () => {
           </div>
           <div className="w-1/4 md:px-12 mx-4">
             <div className="md:mb-8"><img src={Township} alt="" /></div>
-            <div className="text-[#8BDAFF] md:text-xl text-xs font-poppins font-bold">
+            <div className="text-[#8BDAFF] md:text-xl hidden md:block text-xs font-poppins font-bold">
               Township Management
             </div>
             <div className="text-white font-poppins text-xs text-justify mt-2 ">
